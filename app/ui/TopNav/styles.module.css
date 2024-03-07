@@ -1,0 +1,30 @@
+.nav {
+  margin-left: 6rem;
+  margin-right: 6rem;
+  display: flex;
+  justify-content: space-between;
+  width: "100%";
+}
+
+.logobox {
+  flex-direction: column;
+}
+
+.logo {
+  color: white;
+  margin-right: 10px;
+  font-size: 26px;
+  width: 41px;
+  height: 41px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #458FF6;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+  width: fit-content;
+}

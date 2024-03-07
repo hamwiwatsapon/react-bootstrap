@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.detail {
+  font-weight: 300;
+  font-size: 21px;
+  color: #7D7987;
+  margin-bottom: 40px;
+}
+
+.button {
+  border-radius: 55px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #458FF6;
+  color: white;
+  width: fit-content;
+  font-weight: 18px;
+  font-weight: 700;
+}
+
+.image_reverse {
+  margin-right: 5rem;
+}
+
+.info {
+  margin-right: 5rem;
+}
