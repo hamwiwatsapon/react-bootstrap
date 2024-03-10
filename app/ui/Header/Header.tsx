@@ -5,6 +5,7 @@ const Header = () => {
     <div>
       <TopNav />
       <ContentCard 
+        image="/homeFirst.svg"
         title="Virtual healthcare for you" 
         detail="Trafalgar provides progressive, and affordable 
         healthcare, accessible on mobile and online 

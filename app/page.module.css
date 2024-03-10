@@ -1,26 +1,32 @@
 .main {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: space-between;
   padding-left: 3rem;
   padding-right: 3rem;
   min-height: 100vh;
+  z-index: 20;
 }
 
 .bg_dot {
   /* element */
+
   position: absolute;
   left: -3.12%;
   right: 94.9%;
-  top: 20%;
+  top: 2.73%;
   bottom: 95.32%;
+  z-index: 0;
+
 }
 
 .bg_curve {
-  /* Vector */
+  /* bg element */
   position: absolute;
-  left: -10%;
-  right: -26.18%;
-  top: 80%;
-  bottom: 0%;
+  width: 1118.54px;
+  height: 967.94px;
+  left: -266px;
+  top: 800px;
+  z-index: 0;
 }
