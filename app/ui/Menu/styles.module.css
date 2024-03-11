@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.head {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.sub {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  opacity: 60%;
+}

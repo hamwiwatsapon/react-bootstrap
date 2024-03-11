@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+  width: 100%;
+  padding: 6rem;
+  justify-content: space-between;
+}
+
+.containerMain {
+  width: 40%;
+}
+
+.logobox {
+  flex-direction: row;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  color: #5B9BF3;
+  margin-right: 10px;
+  font-size: 26px;
+  width: 41px;
+  height: 41px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  width: fit-content;
+}
+
+.sub {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  line-height: 28px;
+  margin-bottom: 1rem;
+  opacity: 70%
+}

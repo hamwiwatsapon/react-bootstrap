@@ -4,6 +4,8 @@ import ServiceSection from '@/app/ui/ServiceSection/ServiceSection';
 import ContentCard from '@/app/ui/ContentCard/ContentCard';
 import Slider from '@/app/ui/Slider/Slider';
 import Article from '@/app/ui/Article/Article';
+import Footer from '@/app/ui/Footer/Footer';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './page.module.css'
 import Image from 'next/image';
@@ -34,6 +36,7 @@ const Home = () => {
         />
         <Slider />
         <Article />
+        <Footer  />
         <Image className={styles.bg} src="/background.svg" alt="homeBG" width={132} height={115}/>
       </div>
     </main>
