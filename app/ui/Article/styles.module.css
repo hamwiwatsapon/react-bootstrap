@@ -1,0 +1,51 @@
+.container {
+  padding: 4rem;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  margin: 2rem;
+  width: 56px;
+  height: 2px;
+  border-radius: 6px; 
+  background-color: black;
+  margin-bottom: 5rem;
+}
+
+.caption {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.button {
+  border-radius: 55px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #458FF6;
+  border: 2px solid #458FF6;
+  width: fit-content;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.conBut {
+  margin-top: 2rem;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}

@@ -3,6 +3,7 @@ import Header from '@/app/ui/Header/Header';
 import ServiceSection from '@/app/ui/ServiceSection/ServiceSection';
 import ContentCard from '@/app/ui/ContentCard/ContentCard';
 import Slider from '@/app/ui/Slider/Slider';
+import Article from '@/app/ui/Article/Article';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './page.module.css'
 import Image from 'next/image';
@@ -13,9 +14,7 @@ const Home = () => {
     <main className={muliFont.className}>
       <div className={styles.main}>
         <Header />
-        <Image className={styles.bg_dot} src="/homeBgDot.svg" alt="homeBG" width={132} height={115}/>
         <ServiceSection />
-        <Image className={styles.bg_curve} src="/homeBG.svg" alt="homeBG" width={1119} height={968}/>
         <ContentCard 
         image="/homeSecond.svg"
         title="Leading healthcare providers" 
@@ -34,6 +33,8 @@ const Home = () => {
         direction=""
         />
         <Slider />
+        <Article />
+        <Image className={styles.bg} src="/background.svg" alt="homeBG" width={132} height={115}/>
       </div>
     </main>
   );

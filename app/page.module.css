@@ -9,24 +9,9 @@
   z-index: 20;
 }
 
-.bg_dot {
-  /* element */
-
+.bg {
   position: absolute;
-  left: -3.12%;
-  right: 94.9%;
-  top: 2.73%;
-  bottom: 95.32%;
-  z-index: 0;
-
-}
-
-.bg_curve {
-  /* bg element */
-  position: absolute;
-  width: 1118.54px;
-  height: 967.94px;
-  left: -266px;
-  top: 800px;
-  z-index: 0;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
 }
