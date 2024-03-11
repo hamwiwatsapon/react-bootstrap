@@ -1,0 +1,68 @@
+.card {
+  width: 100%;
+  border-radius: 24px;
+  background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  padding: 5rem;
+}
+
+.line {
+  margin-top: 2rem;
+  width: 56px;
+  height: 2px;
+  border-radius: 6px; 
+  background-color: white;
+}
+
+.caption {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.image {
+  border-radius: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: space;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.detail {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.detailCon {
+  width: 50%;
+  margin: 2rem;
+}
+
+.desCon {
+  width: 50%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+

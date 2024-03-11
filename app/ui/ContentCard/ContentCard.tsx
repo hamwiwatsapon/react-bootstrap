@@ -21,7 +21,7 @@ const ContentCard = (props: Props) => {
           <p className={styles.detail}>{props.detail}</p>
           <div className={styles.button}>{props.button}</div>
         </div>
-    </div>
+      </div>
     )
   }
 

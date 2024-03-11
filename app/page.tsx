@@ -2,6 +2,7 @@ import localFont from 'next/font/local'
 import Header from '@/app/ui/Header/Header';
 import ServiceSection from '@/app/ui/ServiceSection/ServiceSection';
 import ContentCard from '@/app/ui/ContentCard/ContentCard';
+import Slider from '@/app/ui/Slider/Slider';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from './page.module.css'
 import Image from 'next/image';
@@ -32,7 +33,7 @@ const Home = () => {
         button="Download"
         direction=""
         />
-        
+        <Slider />
       </div>
     </main>
   );
